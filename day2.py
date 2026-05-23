@@ -26,7 +26,7 @@ def solve(meal_cost, tip_percent, tax_percent):
      # Use Python's built-in round() function to get the nearest integer
      print(round(total_cost))
 
-if --name-- == '--main--':
+if __name__  == '__main__':
     meal_cost = float(input().strip())
     tip_percent = int(input().strip())
     tax_percent = int(input().strip())
