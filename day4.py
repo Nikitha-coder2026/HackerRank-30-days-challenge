@@ -8,15 +8,17 @@ class Person:
            print("Age is not valid, setting age to 0.")
            self.age = 0
        else:
-           self.age = intialAge
+           self.age = initialAge
+
    def amIOld(self):
        # Do some computations in here and print out the correct statement to console.
        if self.age < 13:
-           print("You are a young.")
+           print("You are young.")
        elif 13 <= self.age < 18:
            print("You are a teenager.")
        else:
            print("You are old.")
+
    def yearPasses(self):
        # Increement the age of the person in here
        self.age += 1
